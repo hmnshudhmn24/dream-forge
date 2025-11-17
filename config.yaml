@@ -1,0 +1,13 @@
+generation:
+  model_name: "google/flan-t5-xl"
+  max_new_tokens: 600
+  num_beams: 4
+  temperature: 0.85
+  top_p: 0.9
+templates:
+  world_overview: |
+    Generate a detailed fictional world from the prompt below.
+    Provide sections: World Name, Summary (1 paragraph), Geography (regions, climate), Major Species (brief descriptions),
+    Key Locations (3-6 with short descriptions), History (timeline: 5 events), Factions & Politics (major groups),
+    Culture & Technology (short notes), Notable Figures (3 with short bios), Plot Hooks (5 story seeds).
+    Output in clear markdown sections and keep language creative.
